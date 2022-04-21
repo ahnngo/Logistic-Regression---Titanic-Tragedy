@@ -5,7 +5,9 @@
 
 ## Code and Resources Used 
 **Python Version:** 3.10
+
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn
+
 **Dataset:** https://www.kaggle.com/c/titanic 
 
 ## Data Cleaning
