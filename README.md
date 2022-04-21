@@ -10,9 +10,13 @@
 
 ## Data Cleaning
 After creating a heatmap using seaborn, I figured out that age and cabin columns have a lot of missing values. 
+
 ![alt text](https://github.com/ahnngo/Logistic-Regression---Titanic-Tragedy/blob/main/Chart/Null%20value.png)
+
 However, age has less missing value (around 20%) so I can still fill these out by create a box plot with Pclass with the logic that the older a person is, the more likely they can purchase more pricey ticket. 
+
 ![alt text](https://github.com/ahnngo/Logistic-Regression---Titanic-Tragedy/blob/main/Chart/Age%20vs%20Pclass%20Boxplot.png)
+
 With the cabin column, since it has more than 70% null values, it does not say much or even decrease accuracy if I try to fill these null out. Therefore, I decided to drop this column.
 
 
@@ -20,8 +24,11 @@ With the cabin column, since it has more than 70% null values, it does not say m
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables. 
 
 ![alt text](https://github.com/ahnngo/Logistic-Regression---Titanic-Tragedy/blob/main/Chart/Survided%20vs%20Pclass.png)
+
 The more expensive their ticket were, the more likely they survived
+
 ![alt text](https://github.com/ahnngo/Logistic-Regression---Titanic-Tragedy/blob/main/Chart/Survided%20vs%20Sex.png)
+
 Female had more chance to survive than male
 
 
