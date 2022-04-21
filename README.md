@@ -1,7 +1,7 @@
 # Survival Chance - Titanic Tragedy: Project Overview 
-* Created a machine learning model to predict what is the chance of a person of survive on the Titanic Tragedy
-* Optimized Logistic Regression to generate good f-1 scores of 0.87 (0) and 0.76 (1)
-* Deployed one-hot encoding to convert categorial data to numerical data
+*	Created a machine learning model to predict what is the chance of a person to survive on the Titanic Tragedy
+*	Optimized Logistic Regression to generate good f-1 scores of 0.87 (0) and 0.76 (1)
+*	Deployed one-hot encoding to convert categorical data to numerical data
 
 ## Code and Resources Used 
 **Python Version:** 3.10
